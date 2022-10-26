@@ -1,0 +1,5 @@
+mkfontscale "/usr/share/fonts/MesloLGS NF" &
+mkfontdir "/usr/share/fonts/MesloLGS NF" &
+xset +fp "/usr/share/fonts/MesloLGS NF" &
+picom --vsync --backend glx --unredir-if-possible &
+xrdb -merge /home/therealone/.Xresources &

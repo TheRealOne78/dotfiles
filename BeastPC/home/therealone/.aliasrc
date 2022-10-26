@@ -1,0 +1,38 @@
+SUPER_USER="doas"
+
+#exit terminal
+alias x="exit"
+alias quit="exit"
+alias bye="exit"
+
+#shutdown/reboot
+alias off="doas poweroff"
+alias restart="doas reboot"
+alias reboot="doas reboot"
+#clear terminal
+alias cls="clear"
+alias cl="clear"
+
+#tar
+alias untar="tar -zxvf"
+
+#ffmpeg
+alias musdl="youtube-dl -x --audio-format mp3 --audio-quality 0"
+alias anime="ani-cli"
+#image
+
+#shred
+alias rem="shred -uzvn1"
+alias corrupt="shred -vn10"
+
+#misc
+alias python="python3"
+alias py="python3"
+alias nfetch="neofetch"
+alias nf="neofetch"
+alias nf="neofetch"
+alias please=$SUPER_USER
+alias fucking=$SUPER_USER
+
+#JAVA
+alias java8="/opt/openjdk-bin-8.332_p09/bin/java"
