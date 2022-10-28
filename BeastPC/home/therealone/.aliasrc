@@ -33,6 +33,15 @@ alias nf="neofetch"
 alias nf="neofetch"
 alias please=$SUPER_USER
 alias fucking=$SUPER_USER
+alias ff="firefox"
 
 #JAVA
 alias java8="/opt/openjdk-bin-8.332_p09/bin/java"
+
+#libreoffice
+alias writer="lowriter"
+alias impress="loimpress"
+alias calc="localc"
+alias docx="lowriter"
+alias pptx="loimpress"
+alias xlxs="localc"
